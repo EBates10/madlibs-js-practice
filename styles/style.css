@@ -3,6 +3,7 @@ body, html {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    border: 10px solid rgba(150, 149, 149, 0.783);
     background:linear-gradient(180deg, rgb(18, 18, 18), rgb(38, 38, 38));
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,30 +13,74 @@ body, html {
 }
 
 header {
+    /*background-color: white;*/
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: auto auto 50px auto;
+    align-self: center;
+    max-width: 1000px;
+}
+
+#logo {
+    width: 75%;
+    align-self: center;
+    border-radius: 10px;
+    margin: 5%;
+}
+
+img {
+    width: 200px;
 }
 
 h1 {
-    font-size: 60px;
-    padding-top: 20px;
+    font-size: 50px;
+}
+
+nav {
+    /*background-color: lightgray;*/
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 main {
+    /*background-color: antiquewhite;*/
+    font-size: 30px;
+}
+
+#story {
     border: 10px solid rgba(150, 149, 149, 0.783);
     border-radius: 10px;
+    min-width: 300px;
     max-width: 1000px;
-    margin: auto auto 50px auto;
-    padding: 50px;
+    align-self: center;
+    margin: 25px 8% 5% 8%;
+}
+
+.card-container {
+    border: 2px solid rgba(150, 149, 149, 0.783);
+    margin: 5%;
+    padding: 5%;
+}
+
+.card {    
+    border: 2px solid rgba(150, 149, 149, 0.783);
+    margin: 5%;
+    padding: 5%;
 }
 
 p {
-    margin: auto;
-    padding: 10px;
-    font-size: 45px;
+    font-size: 25px;
     line-height: 80px;
+}
+
+a {
+    text-decoration: underline;
+    color: white;
+}
+a:hover {
+    color:hotpink; 
 }
 
 .bold {
